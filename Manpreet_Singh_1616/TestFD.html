@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Test</title>
+    <meta name="description" content="q" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav>
+      <div class="container">
+        <ul>
+          <li class="q1 active"><a href="#ques">Ques1</a></li>
+          <li class="q2"><a href="#ques1">Ques2</a></li>
+          <li class="q3"><a href="#ques2">Ques3</a></li>
+          <li class="q4"><a href="#ques3">Ques4</a></li>
+          <li class="q5"><a href="#ques4">Ques5</a></li>
+          <li class="q6"><a href="#ques5">Ques6</a></li>
+          <li class="q7"><a href="#ques6">Ques7</a></li>
+          <li class="q8"><a href="#ques7">Ques8</a></li>
+          <li class="q9"><a href="#ques8">Ques9</a></li>
+          <li class="q10"><a href="#ques9">Ques10</a></li>
+        </ul>
+        <span id="timer"></span>
+      </div>
+    </nav>
+
+    <section id="q1">
+      <div id="ques">
+        <p>Question 1</p>
+        <p><input type="radio" name="option" value="A" id="aRadio" />A</p>
+        <p><input type="radio" name="option" value="B" id="bRadio" />B</p>
+        <p><input type="radio" name="option" value="C" id="cRadio" />C</p>
+        <p><input type="radio" name="option" value="D" id="dRadio" />D</p>
+        <span
+          ><a onclick="fun()" href="#ques1" class="al">Next</a></span
+        >
+      </div>
+    </section>
+    <section id="q2">
+      <div id="ques1">
+        <p>Question 2</p>
+        <p><input type="radio" name="option1" value="A" id="a1Radio" /> A</p>
+        <p><input type="radio" name="option1" value="B" id="b1Radio" /> B</p>
+        <p><input type="radio" name="option1" value="C" id="c1Radio" /> C</p>
+        <p><input type="radio" name="option1" value="D" id="d1Radio" /> D</p>
+        <span><a class="al1" href="#ques">Previous</a></span>
+        <span
+          ><a onclick="fun1()" href="#ques2" class="al">Next</a></span
+        >
+      </div>
+    </section>
+    <section id="q3">
+      <div id="ques2">
+        <p>Question 3</p>
+        <p><input type="radio" name="option2" value="A" id="a2Radio" /> A</p>
+        <p><input type="radio" name="option2" value="B" id="b2Radio" /> B</p>
+        <p><input type="radio" name="option2" value="C" id="c2Radio" /> C</p>
+        <p><input type="radio" name="option2" value="D" id="d2Radio" /> D</p>
+        <span><a class="al1" href="#ques1">Previous</a></span>
+        <span
+          ><a onclick="fun2()" href="#ques3" class="al">Next</a></span
+        >
+      </div>
+    </section>
+    <section id="q4">
+      <div id="ques3">
+        <p>Question 4</p>
+        <p><input type="radio" name="option3" value="A" id="a3Radio" /> A</p>
+        <p><input type="radio" name="option3" value="B" id="b3Radio" /> B</p>
+        <p><input type="radio" name="option3" value="C" id="c3Radio" /> C</p>
+        <p><input type="radio" name="option3" value="D" id="d3Radio" /> D</p>
+        <span><a class="al1" href="#ques2">Previous</a></span>
+        <span
+          ><a onclick="fun3()" href="#ques4" class="al">Next</a></span
+        >
+      </div>
+    </section>
+    <section id="q5">
+      <div id="ques4">
+        <p>Question 5</p>
+        <p><input type="radio" name="option4" value="A" id="a4Radio" /> A</p>
+        <p><input type="radio" name="option4" value="B" id="b4Radio" /> B</p>
+        <p><input type="radio" name="option4" value="C" id="c4Radio" /> C</p>
+        <p><input type="radio" name="option4" value="D" id="d4Radio" /> D</p>
+        <span><a class="al1" href="#ques3">Previous</a></span>
+        <span
+          ><a onclick="fun4()" href="#ques5" class="al">Next</a></span
+        >
+      </div>
+    </section>
+    <section id="q6">
+      <div id="ques5">
+        <p>Question 6</p>
+        <p><input type="radio" name="option5" value="A" id="a5Radio" /> A</p>
+        <p><input type="radio" name="option5" value="B" id="b5Radio" /> B</p>
+        <p><input type="radio" name="option5" value="C" id="c5Radio" /> C</p>
+        <p><input type="radio" name="option5" value="D" id="d5Radio" /> D</p>
+        <span><a class="al1" href="#ques4">Previous</a></span>
+        <span
+          ><a onclick="fun5()" href="#ques6" class="al">Next</a></span
+        >
+      </div>
+    </section>
+    <section id="q7">
+      <div id="ques6">
+        <p>Question 7</p>
+        <p><input type="radio" name="option6" value="A" id="a6Radio" /> A</p>
+        <p><input type="radio" name="option6" value="B" id="b6Radio" /> B</p>
+        <p><input type="radio" name="option6" value="C" id="c6Radio" /> C</p>
+        <p><input type="radio" name="option6" value="D" id="d6Radio" /> D</p>
+        <span><a class="al1" href="#ques5">Previous</a></span>
+        <span
+          ><a onclick="fun6()" href="#ques7" class="al">Next</a></span
+        >
+      </div>
+    </section>
+    <section id="q8">
+      <div id="ques7">
+        <p>Question 8</p>
+        <p><input type="radio" name="option7" value="A" id="a7Radio" /> A</p>
+        <p><input type="radio" name="option7" value="B" id="b7Radio" /> B</p>
+        <p><input type="radio" name="option7" value="C" id="c7Radio" /> C</p>
+        <p><input type="radio" name="option7" value="D" id="d7Radio" /> D</p>
+        <span><a class="al1" href="#ques6">Previous</a></span>
+        <span
+          ><a onclick="fun7()" href="#ques8" class="al">Next</a></span
+        >
+      </div>
+    </section>
+    <section id="q9">
+      <div id="ques8">
+        <p>Question 9</p>
+        <p><input type="radio" name="option8" value="A" id="a8Radio" /> A</p>
+        <p><input type="radio" name="option8" value="B" id="b8Radio" /> B</p>
+        <p><input type="radio" name="option8" value="C" id="c8Radio" /> C</p>
+        <p><input type="radio" name="option8" value="D" id="d8Radio" /> D</p>
+        <span><a class="al1" href="#ques7">Previous</a></span>
+        <span
+          ><a onclick="fun8()" href="#ques9" class="al">Next</a></span
+        >
+      </div>
+    </section>
+    <section id="q10">
+      <div id="ques9">
+        <p>Question 10</p>
+        <p><input type="radio" name="option9" value="A" id="a9Radio" /> A</p>
+        <p><input type="radio" name="option9" value="B" id="b9Radio" /> B</p>
+        <p><input type="radio" name="option9" value="C" id="c9Radio" /> C</p>
+        <p><input type="radio" name="option9" value="D" id="d9Radio" />D</p>
+        <span><a class="al1" href="#ques8">Previous</a></span>
+        <span><a class="al" onclick="fun9()">Submit</a></span>
+      </div>
+    </section>
+
+    <script src="script.js"></script>
+  </body>
+</html>

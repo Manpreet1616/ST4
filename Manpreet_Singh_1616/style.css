@@ -1,0 +1,148 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap");
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: "Roboto Mono";
+    font-size: 24px;
+    scroll-behavior: smooth;
+}
+
+section {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+}
+
+#q1,
+#q2,
+#q3,
+#q4,
+#q5,
+#q6,
+#q7,
+#q8,
+#q9,
+#q10 {
+    background-color: #fff3b0;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    width: 140px;
+    height: 100%;
+    background-color: #540b0e;
+    box-shadow: 0px 6px 36px;
+    text-align: center;
+    /* color: #ffffff; */
+
+}
+
+nav .container {
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 10px;
+}
+
+nav .container ul li {
+    display: inline-block;
+}
+
+nav .container ul li a {
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px 20px;
+    color: #ffffff
+}
+
+nav .container ul li.active {
+    background-color: #e09f3e;
+    transition: 0.5s ease;
+}
+
+nav .container ul li.active a {
+    color: #ffffff
+}
+
+#ques,
+#ques1,
+#ques2,
+#ques3,
+#ques4,
+#ques5,
+#ques6,
+#ques7,
+#ques8,
+#ques9 {
+    border: 5px outset;
+    height: 70vh;
+    width: 80.4%;
+    background-color: #335c67;
+    border-radius: 25%;
+    box-shadow: 36px 63px 96px;
+    overflow: hidden;
+    position: absolute;
+    right: 5%;
+    /* color:#ffffff */
+}
+
+p {
+    height: 17%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+input {
+    display: block;
+    direction: ltr;
+}
+
+button {
+    background-color: #9e2a2b;
+    text-decoration: none;
+    cursor: pointer;
+    padding: 15px 32px;
+    font-size: 16px;
+    display: inline-block;
+}
+
+span>a {
+    background-color: #9e2a2b;
+    color: #ffffff;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    padding: 15px 32px;
+    font-size: 16px;
+    display: inline-block;
+}
+
+.al {
+    position: absolute;
+    right: 10%;
+    bottom: 6%;
+}
+
+.al1 {
+    position: absolute;
+    left: 10%;
+    bottom: 6%;
+
+}
+
+#timer {
+    font-weight: 100;
+    font-size: 1.1rem;
+    color: #ffffff;
+}
